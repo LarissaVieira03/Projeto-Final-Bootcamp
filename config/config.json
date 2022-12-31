@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "larissa",
+    "password": "12345678",
+    "database": "adminjs-project",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "larissa",
+    "password": "12345678",
+    "database": "adminjs-project",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "larissa",
+    "password": "12345678",
+    "database": "adminjs-project",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
