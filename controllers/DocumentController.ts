@@ -2,6 +2,7 @@ import { Document } from "../models/document.entity";
 import { Op } from 'sequelize';
 import GenericController from './GenericController';
 
+
 class DocumentController extends GenericController{
     constructor(){
         super();

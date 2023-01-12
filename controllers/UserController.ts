@@ -56,6 +56,7 @@ class UserController{
         return true;
     }
 
+    
     async confirmEmail(token: any){
         let user = await User.findOne({
             where: {

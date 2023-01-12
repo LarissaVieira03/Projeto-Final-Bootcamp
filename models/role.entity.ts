@@ -36,8 +36,8 @@ Role.init(
         },
     },
     {
-      sequelize,
-      tableName: 'roles',
-      modelName: 'role',
+        sequelize,
+        tableName: 'roles',
+        modelName: 'role',
     }
 )

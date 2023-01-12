@@ -98,13 +98,11 @@ const start = async () => {
                                 return request;
                             },
                             after: async(originalResponse: any, request: any, context: any) => {
-                                // TODO: Enviar e-mail com acessos ao usuário criado
                                 console.log(originalResponse.record.params)
                                 return originalResponse;
                             }
                         }
                     }
-                    // TODO: Add Edit
                 ),
             generateResource(Document)
         ],
@@ -143,7 +141,7 @@ const start = async () => {
             name: 'adminjs-internal-admin'
         }
     )
-   
+
 
     app.use(cors());
     app.use(express.json());

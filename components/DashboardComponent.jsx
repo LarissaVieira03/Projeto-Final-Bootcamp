@@ -1,6 +1,6 @@
 const Dashboard = () => {
     return <>
-        Olá mundo
+        Olá mundo.
     </>
 }
 
